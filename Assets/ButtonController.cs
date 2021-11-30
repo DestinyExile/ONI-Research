@@ -10,7 +10,12 @@ public class ButtonController : MonoBehaviour
     [SerializeField] GameObject NodeSelect;
     [SerializeField] GameObject NodeConnection1 = null;
     [SerializeField] GameObject NodeConnection2 = null;
-    [SerializeField] GameObject NextNode = null;
+    [SerializeField] GameObject NextNodeHighlight1 = null;
+    [SerializeField] GameObject NextNodeHighlight2 = null;
+    [SerializeField] GameObject NextNodeHighlight3 = null;
+    [SerializeField] GameObject NextNodeSelect1 = null;
+    [SerializeField] GameObject NextNodeSelect2 = null;
+    [SerializeField] GameObject NextNodeSelect3 = null;
     GameObject button;
     bool selected = false;
     bool hovered = false;
@@ -28,6 +33,18 @@ public class ButtonController : MonoBehaviour
         {
             NodeSelect.SetActive(true);
         }
+        else if (NextNodeSelect1 != null && NextNodeSelect1.activeInHierarchy)
+        {
+            NodeSelect.SetActive(true);
+        }
+        else if (NextNodeSelect2 != null && NextNodeSelect2.activeInHierarchy)
+        {
+            NodeSelect.SetActive(true);
+        }
+        else if (NextNodeSelect3 != null && NextNodeSelect3.activeInHierarchy)
+        {
+            NodeSelect.SetActive(true);
+        }
         else
         {
             NodeSelect.SetActive(false);
@@ -40,9 +57,29 @@ public class ButtonController : MonoBehaviour
             if (NodeConnection2 != null)
                 NodeConnection2.SetActive(true);
         }
-        else if (NextNode != null && NextNode.activeInHierarchy)
+        else if (NextNodeHighlight1 != null && NextNodeHighlight1.activeInHierarchy)
         {
             NodeHighlight.SetActive(true);
+            if (NodeConnection1 != null)
+                NodeConnection1.SetActive(true);
+            if (NodeConnection2 != null)
+                NodeConnection2.SetActive(true);
+        }
+        else if (NextNodeHighlight2 != null && NextNodeHighlight2.activeInHierarchy)
+        {
+            NodeHighlight.SetActive(true);
+            if (NodeConnection1 != null)
+                NodeConnection1.SetActive(true);
+            if (NodeConnection2 != null)
+                NodeConnection2.SetActive(true);
+        }
+        else if (NextNodeHighlight3 != null && NextNodeHighlight3.activeInHierarchy)
+        {
+            NodeHighlight.SetActive(true);
+            if (NodeConnection1 != null)
+                NodeConnection1.SetActive(true);
+            if (NodeConnection2 != null)
+                NodeConnection2.SetActive(true);
         }
         else
         {

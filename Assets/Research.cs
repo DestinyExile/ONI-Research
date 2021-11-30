@@ -98,41 +98,95 @@ public class Research : MonoBehaviour
 
     ResearchNode[] reqResearch;
     ResearchNode currentResearch = null;
+    float novicePoints, advancedpoints, interstellarPoints = 0;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null)
         {
-            currentResearch.reqNovicePoints--;
+            novicePoints++;
+            novicePoints = Mathf.Clamp(novicePoints, novicePoints, currentResearch.reqNovicePoints);
+            Debug.Log(novicePoints);
         }
         if (Input.GetKeyDown(KeyCode.W) && currentResearch != null)
         {
-            currentResearch.reqAdvancedPoints--;
+            advancedpoints++;
+            advancedpoints = Mathf.Clamp(advancedpoints, 0, currentResearch.reqAdvancedPoints);
         }
         if (Input.GetKeyDown(KeyCode.E) && currentResearch != null)
         {
-            currentResearch.reqInterstellarPoints--;
+            interstellarPoints++;
+            interstellarPoints = Mathf.Clamp(interstellarPoints, 0, currentResearch.reqInterstellarPoints);
+        }
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            Debug.Log(currentResearch);
+        }
+        if (currentResearch != null && currentResearch.reqNovicePoints == novicePoints && currentResearch.reqAdvancedPoints == advancedpoints && currentResearch.reqInterstellarPoints == interstellarPoints)
+        {
+            UpdateResearchList();
         }
     }
 
     private void StartResearch()
     {
         currentResearch = reqResearch[0];
+        novicePoints = 0;
+        advancedpoints = 0;
+        interstellarPoints = 0;
+        Debug.Log(currentResearch);
+        Debug.Log(reqResearch.Length);
     }
 
-    private void CheckProgress()
+    private void UpdateResearchList()
     {
-        ResearchNode[] temp = new ResearchNode[reqResearch.Length - 1];
-        if (currentResearch.reqNovicePoints == 0 && currentResearch.reqAdvancedPoints == 0 && currentResearch.reqInterstellarPoints == 0)
+        if(reqResearch.Length > 1)
         {
-            if(reqResearch.Length != 0)
+            ResearchNode[] temp = new ResearchNode[reqResearch.Length - 1];
+            for(int r = 1; r < reqResearch.Length; r++)
             {
-                for(int r = 1; r < reqResearch.Length; r++)
-                {
-                    temp[r] = reqResearch[r];
-                }
+                temp[r - 1] = reqResearch[r];
             }
+            reqResearch = new ResearchNode[temp.Length];
+            reqResearch = temp;
+            StartResearch();
         }
-        reqResearch = temp;
     }
+
+    public void LoadBasicFarming()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming };
+        StartResearch();
+    }
+    public void LoadMealPreparation()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation };
+        StartResearch();
+    }
+    public void LoadAgriculture()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Agriculture };
+        StartResearch();
+    }
+    public void LoadRanching()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Ranching };
+        StartResearch();
+    }
+    public void LoadFoodRepurposing()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Agriculture, FoodRepurposing };
+        StartResearch();
+    }
+    public void LoadAnimalControl()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Ranching, Agriculture, AnimalControl };
+        StartResearch();
+    }
+    public void LoadGourmetMealPreparation()
+    {
+        reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Ranching, Agriculture, AnimalControl, GourmetMealPreparation };
+        StartResearch();
+    }
+
 }

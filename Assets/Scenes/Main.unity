@@ -1996,13 +1996,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 50033497}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6007,13 +6006,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 172226501}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15148,90 +15146,107 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454129606}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 844e7983b0b261b4e826b9049310d075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BasicFarming: {fileID: 0}
-  MealPreparation: {fileID: 0}
-  Agriculture: {fileID: 0}
-  Ranching: {fileID: 0}
-  FoodRepurposing: {fileID: 0}
-  AnimalControl: {fileID: 0}
-  GourmetMealPreparation: {fileID: 0}
-  PowerRegulation: {fileID: 0}
-  InternalCombustion: {fileID: 0}
-  FossilFuels: {fileID: 0}
-  SoundAmplifires: {fileID: 0}
-  AdvancedPowerRegulation: {fileID: 0}
-  PlasticManufacturing: {fileID: 0}
-  LowResistanceConductors: {fileID: 0}
-  ValveMiniturization: {fileID: 0}
-  RenewableEnergy: {fileID: 0}
-  BruteForceRefinement: {fileID: 0}
-  SmartStorage: {fileID: 0}
-  RefinedRenovations: {fileID: 0}
-  SolidTransport: {fileID: 0}
-  Smelting: {fileID: 0}
-  SolidControl: {fileID: 0}
-  SuperheatedForging: {fileID: 0}
-  SolidManagement: {fileID: 0}
-  Employment: {fileID: 0}
-  AdvancedResearch: {fileID: 0}
-  ArtificialFriends: {fileID: 0}
-  NotificationSystems: {fileID: 0}
-  RoboticTools: {fileID: 0}
-  Pharmacology: {fileID: 0}
-  MedicalEquipment: {fileID: 0}
-  PathogenDiagnostics: {fileID: 0}
-  MicroTargetedMedicine: {fileID: 0}
-  Plumbing: {fileID: 0}
-  AirSystems: {fileID: 0}
-  Saniation: {fileID: 0}
-  Filtration: {fileID: 0}
-  LiquidBasedRefinement: {fileID: 0}
-  FlowRedirection: {fileID: 0}
-  Distillation: {fileID: 0}
-  ImprovedPlumbing: {fileID: 0}
-  LiquidTuning: {fileID: 0}
-  AdvancedCaffeination: {fileID: 0}
-  Ventilation: {fileID: 0}
-  PressureManagement: {fileID: 0}
-  PortableGases: {fileID: 0}
-  TemperatureModulation: {fileID: 0}
-  Decontamination: {fileID: 0}
-  ImprovedVentilation: {fileID: 0}
-  HVAC: {fileID: 0}
-  Catalytics: {fileID: 0}
-  HazardProtection: {fileID: 0}
-  TransitTubes: {fileID: 0}
-  Jetpacks: {fileID: 0}
-  InteriorDecor: {fileID: 0}
-  ArtisticExpression: {fileID: 0}
-  TextileProduction: {fileID: 0}
-  FineArt: {fileID: 0}
-  HomeLuxuries: {fileID: 0}
-  HighCulture: {fileID: 0}
-  GlassBlowing: {fileID: 0}
-  RenaissanceArt: {fileID: 0}
-  EnvironmentalAppreciation: {fileID: 0}
-  NewMedia: {fileID: 0}
-  Monuments: {fileID: 0}
-  SmartHome: {fileID: 0}
-  GenericSensors: {fileID: 0}
-  ParallelAutomation: {fileID: 0}
-  AdvancedAutomation: {fileID: 0}
-  Computing: {fileID: 0}
-  Multiplexing: {fileID: 0}
-  CelestialDetection: {fileID: 0}
-  IntroductoryRocketry: {fileID: 0}
-  SolidFuelCombustion: {fileID: 0}
-  SolidCargo: {fileID: 0}
-  HydrocarbonCombustion: {fileID: 0}
-  LiquidandGasCargo: {fileID: 0}
-  CryofuelCombustion: {fileID: 0}
-  UniqueCargo: {fileID: 0}
+  BasicFarming: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f, type: 2}
+  MealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2, type: 2}
+  Agriculture: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5, type: 2}
+  Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
+  FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
+  AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
+  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+    type: 2}
+  PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
+  InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
+  FossilFuels: {fileID: 11400000, guid: 17e1a96e4744bc94fbc83ab7046928f7, type: 2}
+  SoundAmplifires: {fileID: 11400000, guid: 424e355e941bc6948bab9eb848e217d5, type: 2}
+  AdvancedPowerRegulation: {fileID: 11400000, guid: 5a09dc8e5efb66c4a9db7bc6d1fc88b3,
+    type: 2}
+  PlasticManufacturing: {fileID: 11400000, guid: a5832cd500acddf4291207e9c2e3f523,
+    type: 2}
+  LowResistanceConductors: {fileID: 11400000, guid: d8286f22ea2a63a42ab721bc598ca627,
+    type: 2}
+  ValveMiniturization: {fileID: 11400000, guid: bafc350c0f384d9499df06c0e87f3e5f,
+    type: 2}
+  RenewableEnergy: {fileID: 11400000, guid: fcc5dd5c47f6c954aa22dd452dc1efe2, type: 2}
+  BruteForceRefinement: {fileID: 11400000, guid: a6e57da7c92be0447b763aeb4210f286,
+    type: 2}
+  SmartStorage: {fileID: 11400000, guid: 3947016f132224d4daa26bc3eb981763, type: 2}
+  RefinedRenovations: {fileID: 11400000, guid: b3983683929b0214392e6864c13048cd, type: 2}
+  SolidTransport: {fileID: 11400000, guid: 38a6269d01ae0af40a7dc1b709e2c791, type: 2}
+  Smelting: {fileID: 11400000, guid: c298066c9ab176348bf10b0a5618119c, type: 2}
+  SolidControl: {fileID: 11400000, guid: 278f44f6866b18141b9d434c9c55f59e, type: 2}
+  SuperheatedForging: {fileID: 11400000, guid: 8e76731a279798a4bb7ed53e6afd0016, type: 2}
+  SolidManagement: {fileID: 11400000, guid: bb6f33fc8370d984cb7b539318ad792b, type: 2}
+  Employment: {fileID: 11400000, guid: 20d5cb33c4498d04a93fb07a3dd8e33f, type: 2}
+  AdvancedResearch: {fileID: 11400000, guid: 013643bc4b6f8bd4e9973a6fef403720, type: 2}
+  ArtificialFriends: {fileID: 11400000, guid: 84c7ed323268889409a3b46c50c61cc9, type: 2}
+  NotificationSystems: {fileID: 11400000, guid: 17a480555138f954d98d904c17aa4923,
+    type: 2}
+  RoboticTools: {fileID: 11400000, guid: c63727baab21e3543b9dbab7692c29b6, type: 2}
+  Pharmacology: {fileID: 11400000, guid: a0d6f41c3e64e9e46a6f50d4dcf84d92, type: 2}
+  MedicalEquipment: {fileID: 11400000, guid: f56d07e43f28cc545904ea7f744064a7, type: 2}
+  PathogenDiagnostics: {fileID: 11400000, guid: f6c54a414b331a047ad99e278be30fd8,
+    type: 2}
+  MicroTargetedMedicine: {fileID: 11400000, guid: 05d907ebbb7c58e46b532e5f35e80ad5,
+    type: 2}
+  Plumbing: {fileID: 11400000, guid: 37068317bc58fde4799bec45b1d09a4b, type: 2}
+  AirSystems: {fileID: 11400000, guid: 6192bb2029442a94885e3ad136941a04, type: 2}
+  Saniation: {fileID: 11400000, guid: e028e13994d67844b90bcdf5cb09fad8, type: 2}
+  Filtration: {fileID: 11400000, guid: c13090791d5cc064196beb4ef452962a, type: 2}
+  LiquidBasedRefinement: {fileID: 11400000, guid: 54d1405196e6d4146a8d965718eb9c19,
+    type: 2}
+  FlowRedirection: {fileID: 11400000, guid: f29dd52ef93271c4dbfdc7cc36923969, type: 2}
+  Distillation: {fileID: 11400000, guid: dbbfb8eb998dd324d8230a775781b8cb, type: 2}
+  ImprovedPlumbing: {fileID: 11400000, guid: 1abf0f228dcb53449a94bcad5c265726, type: 2}
+  LiquidTuning: {fileID: 11400000, guid: 311e9f08ef75fcc43a58c860a8a022f7, type: 2}
+  AdvancedCaffeination: {fileID: 11400000, guid: bd82f6266f0c0a946b75d38dbe635356,
+    type: 2}
+  Ventilation: {fileID: 11400000, guid: e6f364777175cd440a7c486b783e4b81, type: 2}
+  PressureManagement: {fileID: 11400000, guid: 8668bdc1ed722494592b96668436beda, type: 2}
+  PortableGases: {fileID: 11400000, guid: 2f1ce06ea61038740afa9ac46f72b716, type: 2}
+  TemperatureModulation: {fileID: 11400000, guid: 8895d47c1990b97479b8b5cf4679821e,
+    type: 2}
+  Decontamination: {fileID: 11400000, guid: d2dbf64af28836145bec8534c9d166fb, type: 2}
+  ImprovedVentilation: {fileID: 11400000, guid: d71ee8d0c5eb1af4ea65c2aca066b794,
+    type: 2}
+  HVAC: {fileID: 11400000, guid: a92719199b5a8c34a8e86b9e61e90735, type: 2}
+  Catalytics: {fileID: 11400000, guid: d0175ad4aa41f604f932d5b3db2f7ec0, type: 2}
+  HazardProtection: {fileID: 11400000, guid: 314da63acce32db46835012a6a66d561, type: 2}
+  TransitTubes: {fileID: 11400000, guid: 715973c0600ded6408178951296f4db6, type: 2}
+  Jetpacks: {fileID: 11400000, guid: ff0e09b3785822e4f9ac9043c74970d1, type: 2}
+  InteriorDecor: {fileID: 11400000, guid: f3bd7a5a00ccd2f40bf750935e66f4b9, type: 2}
+  ArtisticExpression: {fileID: 11400000, guid: ed51e75b3334515429090a7ee9150f11, type: 2}
+  TextileProduction: {fileID: 11400000, guid: 4eea4500243f4654ba6b6275a3f80fd4, type: 2}
+  FineArt: {fileID: 11400000, guid: a7dcb5c2cd4ad7046974eace584caf54, type: 2}
+  HomeLuxuries: {fileID: 11400000, guid: a5243f7b5c6d1f64394186ec0fc23f38, type: 2}
+  HighCulture: {fileID: 11400000, guid: 9111c2f50930b7e44b2c5dd05548de9a, type: 2}
+  GlassBlowing: {fileID: 11400000, guid: dd373075be5e19f4695568657dca0c20, type: 2}
+  RenaissanceArt: {fileID: 11400000, guid: 988c766100d07bf40ab2d3ea2fbf7963, type: 2}
+  EnvironmentalAppreciation: {fileID: 11400000, guid: 006671c153f8b4947b3105b6a26be23b,
+    type: 2}
+  NewMedia: {fileID: 11400000, guid: 4d9f85a3d76a3a94499117993ba3eb8d, type: 2}
+  Monuments: {fileID: 11400000, guid: dffb4a18f25ca2f48bdbaa7abff3062b, type: 2}
+  SmartHome: {fileID: 11400000, guid: 39445f2cb7e22dd4e93e06a2b3754843, type: 2}
+  GenericSensors: {fileID: 11400000, guid: 72e2906968b7a49409c1c1debcf3db0c, type: 2}
+  ParallelAutomation: {fileID: 11400000, guid: fc95521b156d0f244956717cc868f248, type: 2}
+  AdvancedAutomation: {fileID: 11400000, guid: bdec45915a574ee468dde5bfbf30e17f, type: 2}
+  Computing: {fileID: 11400000, guid: 24a4d1e56068ccd4e8f24042143c1940, type: 2}
+  Multiplexing: {fileID: 11400000, guid: 07c4a43f8ca6de747b512c7eb8408002, type: 2}
+  CelestialDetection: {fileID: 11400000, guid: 8d8021c9afd2ef042b351fd07d046e60, type: 2}
+  IntroductoryRocketry: {fileID: 11400000, guid: 92183a5295d83f842b15ad93f66729c2,
+    type: 2}
+  SolidFuelCombustion: {fileID: 11400000, guid: 7fb018f1799015549ac26f4b4f2ddd2d,
+    type: 2}
+  SolidCargo: {fileID: 11400000, guid: 451e92b053b957942a323df0bc8e2bbe, type: 2}
+  HydrocarbonCombustion: {fileID: 11400000, guid: febb7147f161e1b489bf0d10e671b9fc,
+    type: 2}
+  LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
+  CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
+  UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
 --- !u!4 &454129608
 Transform:
   m_ObjectHideFlags: 0
@@ -15916,13 +15931,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 471169287}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31740,13 +31754,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 913492107}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -38088,6 +38101,7 @@ GameObject:
   - component: {fileID: 1095744107}
   - component: {fileID: 1095744111}
   - component: {fileID: 1095744110}
+  - component: {fileID: 1095744112}
   m_Layer: 5
   m_Name: NodeButton_btn
   m_TagString: Untagged
@@ -38159,6 +38173,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1095744111}
         m_MethodName: ToggleSelection
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1095744112}
+        m_MethodName: LoadGourmetMealPreparation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -38271,6 +38296,114 @@ MonoBehaviour:
   NextNodeSelect1: {fileID: 0}
   NextNodeSelect2: {fileID: 0}
   NextNodeSelect3: {fileID: 0}
+--- !u!114 &1095744112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095744105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844e7983b0b261b4e826b9049310d075, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BasicFarming: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f, type: 2}
+  MealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2, type: 2}
+  Agriculture: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5, type: 2}
+  Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
+  FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
+  AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
+  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+    type: 2}
+  PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
+  InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
+  FossilFuels: {fileID: 11400000, guid: 17e1a96e4744bc94fbc83ab7046928f7, type: 2}
+  SoundAmplifires: {fileID: 11400000, guid: 424e355e941bc6948bab9eb848e217d5, type: 2}
+  AdvancedPowerRegulation: {fileID: 11400000, guid: 5a09dc8e5efb66c4a9db7bc6d1fc88b3,
+    type: 2}
+  PlasticManufacturing: {fileID: 11400000, guid: a5832cd500acddf4291207e9c2e3f523,
+    type: 2}
+  LowResistanceConductors: {fileID: 11400000, guid: d8286f22ea2a63a42ab721bc598ca627,
+    type: 2}
+  ValveMiniturization: {fileID: 11400000, guid: bafc350c0f384d9499df06c0e87f3e5f,
+    type: 2}
+  RenewableEnergy: {fileID: 11400000, guid: fcc5dd5c47f6c954aa22dd452dc1efe2, type: 2}
+  BruteForceRefinement: {fileID: 11400000, guid: a6e57da7c92be0447b763aeb4210f286,
+    type: 2}
+  SmartStorage: {fileID: 11400000, guid: 3947016f132224d4daa26bc3eb981763, type: 2}
+  RefinedRenovations: {fileID: 11400000, guid: b3983683929b0214392e6864c13048cd, type: 2}
+  SolidTransport: {fileID: 11400000, guid: 38a6269d01ae0af40a7dc1b709e2c791, type: 2}
+  Smelting: {fileID: 11400000, guid: c298066c9ab176348bf10b0a5618119c, type: 2}
+  SolidControl: {fileID: 11400000, guid: 278f44f6866b18141b9d434c9c55f59e, type: 2}
+  SuperheatedForging: {fileID: 11400000, guid: 8e76731a279798a4bb7ed53e6afd0016, type: 2}
+  SolidManagement: {fileID: 11400000, guid: bb6f33fc8370d984cb7b539318ad792b, type: 2}
+  Employment: {fileID: 11400000, guid: 20d5cb33c4498d04a93fb07a3dd8e33f, type: 2}
+  AdvancedResearch: {fileID: 11400000, guid: 013643bc4b6f8bd4e9973a6fef403720, type: 2}
+  ArtificialFriends: {fileID: 11400000, guid: 84c7ed323268889409a3b46c50c61cc9, type: 2}
+  NotificationSystems: {fileID: 11400000, guid: 17a480555138f954d98d904c17aa4923,
+    type: 2}
+  RoboticTools: {fileID: 11400000, guid: c63727baab21e3543b9dbab7692c29b6, type: 2}
+  Pharmacology: {fileID: 11400000, guid: a0d6f41c3e64e9e46a6f50d4dcf84d92, type: 2}
+  MedicalEquipment: {fileID: 11400000, guid: f56d07e43f28cc545904ea7f744064a7, type: 2}
+  PathogenDiagnostics: {fileID: 11400000, guid: f6c54a414b331a047ad99e278be30fd8,
+    type: 2}
+  MicroTargetedMedicine: {fileID: 11400000, guid: 05d907ebbb7c58e46b532e5f35e80ad5,
+    type: 2}
+  Plumbing: {fileID: 11400000, guid: 37068317bc58fde4799bec45b1d09a4b, type: 2}
+  AirSystems: {fileID: 11400000, guid: 6192bb2029442a94885e3ad136941a04, type: 2}
+  Saniation: {fileID: 11400000, guid: e028e13994d67844b90bcdf5cb09fad8, type: 2}
+  Filtration: {fileID: 11400000, guid: c13090791d5cc064196beb4ef452962a, type: 2}
+  LiquidBasedRefinement: {fileID: 11400000, guid: 54d1405196e6d4146a8d965718eb9c19,
+    type: 2}
+  FlowRedirection: {fileID: 11400000, guid: f29dd52ef93271c4dbfdc7cc36923969, type: 2}
+  Distillation: {fileID: 11400000, guid: dbbfb8eb998dd324d8230a775781b8cb, type: 2}
+  ImprovedPlumbing: {fileID: 11400000, guid: 1abf0f228dcb53449a94bcad5c265726, type: 2}
+  LiquidTuning: {fileID: 11400000, guid: 311e9f08ef75fcc43a58c860a8a022f7, type: 2}
+  AdvancedCaffeination: {fileID: 11400000, guid: bd82f6266f0c0a946b75d38dbe635356,
+    type: 2}
+  Ventilation: {fileID: 11400000, guid: e6f364777175cd440a7c486b783e4b81, type: 2}
+  PressureManagement: {fileID: 11400000, guid: 8668bdc1ed722494592b96668436beda, type: 2}
+  PortableGases: {fileID: 11400000, guid: 2f1ce06ea61038740afa9ac46f72b716, type: 2}
+  TemperatureModulation: {fileID: 11400000, guid: 8895d47c1990b97479b8b5cf4679821e,
+    type: 2}
+  Decontamination: {fileID: 11400000, guid: d2dbf64af28836145bec8534c9d166fb, type: 2}
+  ImprovedVentilation: {fileID: 11400000, guid: d71ee8d0c5eb1af4ea65c2aca066b794,
+    type: 2}
+  HVAC: {fileID: 11400000, guid: a92719199b5a8c34a8e86b9e61e90735, type: 2}
+  Catalytics: {fileID: 11400000, guid: d0175ad4aa41f604f932d5b3db2f7ec0, type: 2}
+  HazardProtection: {fileID: 11400000, guid: 314da63acce32db46835012a6a66d561, type: 2}
+  TransitTubes: {fileID: 11400000, guid: 715973c0600ded6408178951296f4db6, type: 2}
+  Jetpacks: {fileID: 11400000, guid: ff0e09b3785822e4f9ac9043c74970d1, type: 2}
+  InteriorDecor: {fileID: 11400000, guid: f3bd7a5a00ccd2f40bf750935e66f4b9, type: 2}
+  ArtisticExpression: {fileID: 11400000, guid: ed51e75b3334515429090a7ee9150f11, type: 2}
+  TextileProduction: {fileID: 11400000, guid: 4eea4500243f4654ba6b6275a3f80fd4, type: 2}
+  FineArt: {fileID: 11400000, guid: a7dcb5c2cd4ad7046974eace584caf54, type: 2}
+  HomeLuxuries: {fileID: 11400000, guid: a5243f7b5c6d1f64394186ec0fc23f38, type: 2}
+  HighCulture: {fileID: 11400000, guid: 9111c2f50930b7e44b2c5dd05548de9a, type: 2}
+  GlassBlowing: {fileID: 11400000, guid: dd373075be5e19f4695568657dca0c20, type: 2}
+  RenaissanceArt: {fileID: 11400000, guid: 988c766100d07bf40ab2d3ea2fbf7963, type: 2}
+  EnvironmentalAppreciation: {fileID: 11400000, guid: 006671c153f8b4947b3105b6a26be23b,
+    type: 2}
+  NewMedia: {fileID: 11400000, guid: 4d9f85a3d76a3a94499117993ba3eb8d, type: 2}
+  Monuments: {fileID: 11400000, guid: dffb4a18f25ca2f48bdbaa7abff3062b, type: 2}
+  SmartHome: {fileID: 11400000, guid: 39445f2cb7e22dd4e93e06a2b3754843, type: 2}
+  GenericSensors: {fileID: 11400000, guid: 72e2906968b7a49409c1c1debcf3db0c, type: 2}
+  ParallelAutomation: {fileID: 11400000, guid: fc95521b156d0f244956717cc868f248, type: 2}
+  AdvancedAutomation: {fileID: 11400000, guid: bdec45915a574ee468dde5bfbf30e17f, type: 2}
+  Computing: {fileID: 11400000, guid: 24a4d1e56068ccd4e8f24042143c1940, type: 2}
+  Multiplexing: {fileID: 11400000, guid: 07c4a43f8ca6de747b512c7eb8408002, type: 2}
+  CelestialDetection: {fileID: 11400000, guid: 8d8021c9afd2ef042b351fd07d046e60, type: 2}
+  IntroductoryRocketry: {fileID: 11400000, guid: 92183a5295d83f842b15ad93f66729c2,
+    type: 2}
+  SolidFuelCombustion: {fileID: 11400000, guid: 7fb018f1799015549ac26f4b4f2ddd2d,
+    type: 2}
+  SolidCargo: {fileID: 11400000, guid: 451e92b053b957942a323df0bc8e2bbe, type: 2}
+  HydrocarbonCombustion: {fileID: 11400000, guid: febb7147f161e1b489bf0d10e671b9fc,
+    type: 2}
+  LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
+  CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
+  UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
 --- !u!1 &1099482429
 GameObject:
   m_ObjectHideFlags: 0
@@ -50605,13 +50738,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 1465998964}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61944,13 +62076,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: LoadResearch
-        m_Mode: 2
+      - m_Target: {fileID: 1802081520}
+        m_MethodName: ToggleSelection
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

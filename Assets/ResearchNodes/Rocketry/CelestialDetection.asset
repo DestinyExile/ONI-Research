@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
   m_Name: CelestialDetection
   m_EditorClassIdentifier: 
-  name: 
-  reqNovicePoints: 0
-  reqAdvancedPoints: 0
+  name: CelestialDetection
+  reqNovicePoints: 50
+  reqAdvancedPoints: 70
   reqInterstellarPoints: 0
-  preReq1: {fileID: 0}
+  preReq1: {fileID: 11400000, guid: 24a4d1e56068ccd4e8f24042143c1940, type: 2}
   preReq2: {fileID: 0}
-  total: 0
+  total: 6

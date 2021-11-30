@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
-  m_Name: CelestialDetection 3
+  m_Name: UniqueCargo
   m_EditorClassIdentifier: 
-  name: 
-  reqNovicePoints: 0
-  reqAdvancedPoints: 0
-  reqInterstellarPoints: 0
-  preReq1: {fileID: 0}
+  name: UniqueCargo
+  reqNovicePoints: 70
+  reqAdvancedPoints: 100
+  reqInterstellarPoints: 800
+  preReq1: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   preReq2: {fileID: 0}
-  total: 0
+  total: 10

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
-  m_Name: CelestialDetection 4
+  m_Name: CryoFuelCombustion
   m_EditorClassIdentifier: 
-  name: 
-  reqNovicePoints: 0
-  reqAdvancedPoints: 0
-  reqInterstellarPoints: 0
-  preReq1: {fileID: 0}
+  name: CryoFuelCombustion
+  reqNovicePoints: 70
+  reqAdvancedPoints: 100
+  reqInterstellarPoints: 800
+  preReq1: {fileID: 11400000, guid: febb7147f161e1b489bf0d10e671b9fc, type: 2}
   preReq2: {fileID: 0}
-  total: 0
+  total: 23

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
-  m_Name: CelestialDetection 5
+  m_Name: LiquidandGasCargo
   m_EditorClassIdentifier: 
-  name: 
-  reqNovicePoints: 0
-  reqAdvancedPoints: 0
-  reqInterstellarPoints: 0
-  preReq1: {fileID: 0}
+  name: LiquidandGasCargo
+  reqNovicePoints: 70
+  reqAdvancedPoints: 100
+  reqInterstellarPoints: 400
+  preReq1: {fileID: 11400000, guid: 451e92b053b957942a323df0bc8e2bbe, type: 2}
   preReq2: {fileID: 0}
-  total: 0
+  total: 9

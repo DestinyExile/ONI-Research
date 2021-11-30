@@ -7,6 +7,10 @@ using UnityEngine.EventSystems;
 public class ButtonController : MonoBehaviour
 {
     [SerializeField] GameObject NodeHighlight;
+    [SerializeField] GameObject NodeSelect;
+    [SerializeField] GameObject NodeConnection1 = null;
+    [SerializeField] GameObject NodeConnection2 = null;
+    [SerializeField] GameObject NextNode = null;
     GameObject button;
     bool selected = false;
     bool hovered = false;
@@ -22,15 +26,31 @@ public class ButtonController : MonoBehaviour
     {
         if (selected)
         {
-            NodeHighlight.SetActive(true);
+            NodeSelect.SetActive(true);
         }
-        else if (hovered)
+        else
+        {
+            NodeSelect.SetActive(false);
+        }
+        if (hovered)
+        {
+            NodeHighlight.SetActive(true);
+            if (NodeConnection1 != null)
+                NodeConnection1.SetActive(true);
+            if (NodeConnection2 != null)
+                NodeConnection2.SetActive(true);
+        }
+        else if (NextNode != null && NextNode.activeInHierarchy)
         {
             NodeHighlight.SetActive(true);
         }
         else
         {
             NodeHighlight.SetActive(false);
+            if (NodeConnection1 != null)
+                NodeConnection1.SetActive(false);
+            if (NodeConnection2 != null)
+                NodeConnection2.SetActive(false);
         }
     }
 

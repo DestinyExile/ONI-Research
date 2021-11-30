@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class ButtonController : MonoBehaviour
 {
+    [SerializeField] ResearchNode researchNode;
     [SerializeField] GameObject NodeHighlight;
     [SerializeField] GameObject NodeSelect;
     [SerializeField] GameObject NodeConnection1 = null;

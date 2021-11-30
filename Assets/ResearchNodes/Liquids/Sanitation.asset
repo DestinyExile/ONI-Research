@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
+  m_Name: Sanitation
+  m_EditorClassIdentifier: 
+  name: Sanitation
+  reqNovicePoints: 20
+  reqAdvancedPoints: 0
+  reqInterstellarPoints: 0
+  preReq1: {fileID: 11400000, guid: 37068317bc58fde4799bec45b1d09a4b, type: 2}
+  preReq2: {fileID: 0}
+  total: 2

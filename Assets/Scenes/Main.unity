@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 956271259}
   NodeSelect: {fileID: 1076958781}
   NodeConnection1: {fileID: 771953769}
@@ -1823,6 +1824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1275293108}
   NodeSelect: {fileID: 1076649079}
   NodeConnection1: {fileID: 1914494280}
@@ -1994,12 +1996,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 50033497}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2097,6 +2100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f, type: 2}
   NodeHighlight: {fileID: 307576354}
   NodeSelect: {fileID: 359798609}
   NodeConnection1: {fileID: 0}
@@ -2288,7 +2292,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Genertic Sensors
+  m_Text: Generic Sensors
 --- !u!222 &59869051
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2483,6 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 902081041}
   NodeSelect: {fileID: 877406006}
   NodeConnection1: {fileID: 810080095}
@@ -4450,6 +4455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1750498654}
   NodeSelect: {fileID: 1795754676}
   NodeConnection1: {fileID: 1499012935}
@@ -5563,6 +5569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1654861723}
   NodeSelect: {fileID: 1041941262}
   NodeConnection1: {fileID: 2141488079}
@@ -6000,12 +6007,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 172226501}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6060,6 +6068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
   NodeHighlight: {fileID: 1351084272}
   NodeSelect: {fileID: 2102996569}
   NodeConnection1: {fileID: 684788228}
@@ -7474,6 +7483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 388298616}
   NodeSelect: {fileID: 1737389380}
   NodeConnection1: {fileID: 0}
@@ -8680,6 +8690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1126399857}
   NodeSelect: {fileID: 2128969260}
   NodeConnection1: {fileID: 1717349252}
@@ -10197,6 +10208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 443487882}
   NodeSelect: {fileID: 860623111}
   NodeConnection1: {fileID: 0}
@@ -11025,6 +11037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 997244797}
   NodeSelect: {fileID: 493893618}
   NodeConnection1: {fileID: 2091100696}
@@ -12291,6 +12304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1154706865}
   NodeSelect: {fileID: 1291770997}
   NodeConnection1: {fileID: 548656330}
@@ -14464,6 +14478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1714701540}
   NodeSelect: {fileID: 1530296355}
   NodeConnection1: {fileID: 98079152}
@@ -15138,13 +15153,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844e7983b0b261b4e826b9049310d075, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BasicFarming: {fileID: 1003034268}
-  MealPreparation: {fileID: 1269244381}
-  Agriculture: {fileID: 2062706623}
-  Ranching: {fileID: 560168283}
-  FoodRepurposing: {fileID: 872830011}
-  AnimalControl: {fileID: 1719874905}
-  GourmetMealPreparation: {fileID: 485911442}
+  BasicFarming: {fileID: 0}
+  MealPreparation: {fileID: 0}
+  Agriculture: {fileID: 0}
+  Ranching: {fileID: 0}
+  FoodRepurposing: {fileID: 0}
+  AnimalControl: {fileID: 0}
+  GourmetMealPreparation: {fileID: 0}
+  PowerRegulation: {fileID: 0}
+  InternalCombustion: {fileID: 0}
+  FossilFuels: {fileID: 0}
+  SoundAmplifires: {fileID: 0}
+  AdvancedPowerRegulation: {fileID: 0}
+  PlasticManufacturing: {fileID: 0}
+  LowResistanceConductors: {fileID: 0}
+  ValveMiniturization: {fileID: 0}
+  RenewableEnergy: {fileID: 0}
+  BruteForceRefinement: {fileID: 0}
+  SmartStorage: {fileID: 0}
+  RefinedRenovations: {fileID: 0}
+  SolidTransport: {fileID: 0}
+  Smelting: {fileID: 0}
+  SolidControl: {fileID: 0}
+  SuperheatedForging: {fileID: 0}
+  SolidManagement: {fileID: 0}
+  Employment: {fileID: 0}
+  AdvancedResearch: {fileID: 0}
+  ArtificialFriends: {fileID: 0}
+  NotificationSystems: {fileID: 0}
+  RoboticTools: {fileID: 0}
+  Pharmacology: {fileID: 0}
+  MedicalEquipment: {fileID: 0}
+  PathogenDiagnostics: {fileID: 0}
+  MicroTargetedMedicine: {fileID: 0}
+  Plumbing: {fileID: 0}
+  AirSystems: {fileID: 0}
+  Saniation: {fileID: 0}
+  Filtration: {fileID: 0}
+  LiquidBasedRefinement: {fileID: 0}
+  FlowRedirection: {fileID: 0}
+  Distillation: {fileID: 0}
+  ImprovedPlumbing: {fileID: 0}
+  LiquidTuning: {fileID: 0}
+  AdvancedCaffeination: {fileID: 0}
+  Ventilation: {fileID: 0}
+  PressureManagement: {fileID: 0}
+  PortableGases: {fileID: 0}
+  TemperatureModulation: {fileID: 0}
+  Decontamination: {fileID: 0}
+  ImprovedVentilation: {fileID: 0}
+  HVAC: {fileID: 0}
+  Catalytics: {fileID: 0}
+  HazardProtection: {fileID: 0}
+  TransitTubes: {fileID: 0}
+  Jetpacks: {fileID: 0}
+  InteriorDecor: {fileID: 0}
+  ArtisticExpression: {fileID: 0}
+  TextileProduction: {fileID: 0}
+  FineArt: {fileID: 0}
+  HomeLuxuries: {fileID: 0}
+  HighCulture: {fileID: 0}
+  GlassBlowing: {fileID: 0}
+  RenaissanceArt: {fileID: 0}
+  EnvironmentalAppreciation: {fileID: 0}
+  NewMedia: {fileID: 0}
+  Monuments: {fileID: 0}
+  SmartHome: {fileID: 0}
+  GenericSensors: {fileID: 0}
+  ParallelAutomation: {fileID: 0}
+  AdvancedAutomation: {fileID: 0}
+  Computing: {fileID: 0}
+  Multiplexing: {fileID: 0}
+  CelestialDetection: {fileID: 0}
+  IntroductoryRocketry: {fileID: 0}
+  SolidFuelCombustion: {fileID: 0}
+  SolidCargo: {fileID: 0}
+  HydrocarbonCombustion: {fileID: 0}
+  LiquidandGasCargo: {fileID: 0}
+  CryofuelCombustion: {fileID: 0}
+  UniqueCargo: {fileID: 0}
 --- !u!4 &454129608
 Transform:
   m_ObjectHideFlags: 0
@@ -15829,12 +15916,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 471169287}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15889,6 +15977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5, type: 2}
   NodeHighlight: {fileID: 2127077242}
   NodeSelect: {fileID: 817792564}
   NodeConnection1: {fileID: 241701977}
@@ -16505,6 +16594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 975306922}
   NodeSelect: {fileID: 1451047672}
   NodeConnection1: {fileID: 1260457423}
@@ -16923,6 +17013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 758093555}
   NodeSelect: {fileID: 1967789474}
   NodeConnection1: {fileID: 871262771}
@@ -17227,6 +17318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1065328328}
   NodeSelect: {fileID: 2013923561}
   NodeConnection1: {fileID: 1205724784}
@@ -20323,6 +20415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1065008528}
   NodeSelect: {fileID: 78013255}
   NodeConnection1: {fileID: 295613040}
@@ -20594,6 +20687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1423770359}
   NodeSelect: {fileID: 784761892}
   NodeConnection1: {fileID: 1622072980}
@@ -22349,6 +22443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1796895671}
   NodeSelect: {fileID: 1540316127}
   NodeConnection1: {fileID: 120560098}
@@ -24064,6 +24159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1146494745}
   NodeSelect: {fileID: 341730027}
   NodeConnection1: {fileID: 1461041438}
@@ -24334,6 +24430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1539398183}
   NodeSelect: {fileID: 887930862}
   NodeConnection1: {fileID: 678207305}
@@ -24722,6 +24819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1221209225}
   NodeSelect: {fileID: 1019484458}
   NodeConnection1: {fileID: 1327072842}
@@ -24992,6 +25090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1567295876}
   NodeSelect: {fileID: 504473521}
   NodeConnection1: {fileID: 1835494913}
@@ -25145,6 +25244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 380591826}
   NodeSelect: {fileID: 2076477602}
   NodeConnection1: {fileID: 818808779}
@@ -27038,6 +27138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 871191865}
   NodeSelect: {fileID: 1970145063}
   NodeConnection1: {fileID: 1820326974}
@@ -27668,6 +27769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1426835882}
   NodeSelect: {fileID: 1055483697}
   NodeConnection1: {fileID: 476790020}
@@ -28239,6 +28341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1174688709}
   NodeSelect: {fileID: 938426773}
   NodeConnection1: {fileID: 363694309}
@@ -29066,6 +29169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1717584831}
   NodeSelect: {fileID: 1595276880}
   NodeConnection1: {fileID: 455683706}
@@ -29809,6 +29913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 830456677}
   NodeSelect: {fileID: 465432368}
   NodeConnection1: {fileID: 821605113}
@@ -30534,6 +30639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 807171727}
   NodeSelect: {fileID: 793177560}
   NodeConnection1: {fileID: 2119339495}
@@ -31065,6 +31171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 920026485}
   NodeSelect: {fileID: 704171400}
   NodeConnection1: {fileID: 1756809738}
@@ -31633,12 +31740,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 913492107}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -31693,6 +31801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   NodeHighlight: {fileID: 1392718581}
   NodeSelect: {fileID: 2010839904}
   NodeConnection1: {fileID: 463580593}
@@ -32862,6 +32971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1873718508}
   NodeSelect: {fileID: 1685225858}
   NodeConnection1: {fileID: 1420952493}
@@ -33164,7 +33274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: -1363, z: -937}
+  m_LocalPosition: {x: 15, y: 1336, z: -937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -35379,6 +35489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1564654189}
   NodeSelect: {fileID: 338928039}
   NodeConnection1: {fileID: 0}
@@ -37014,6 +37125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 2013086883}
   NodeSelect: {fileID: 2068772481}
   NodeConnection1: {fileID: 781494992}
@@ -37951,6 +38063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1950792890}
   NodeSelect: {fileID: 66939802}
   NodeConnection1: {fileID: 1885321985}
@@ -38147,6 +38260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3, type: 2}
   NodeHighlight: {fileID: 183865338}
   NodeSelect: {fileID: 36677787}
   NodeConnection1: {fileID: 917658927}
@@ -38374,6 +38488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1984492814}
   NodeSelect: {fileID: 1656257219}
   NodeConnection1: {fileID: 1001172847}
@@ -38570,6 +38685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1153519317}
   NodeSelect: {fileID: 1890265557}
   NodeConnection1: {fileID: 664380918}
@@ -39478,6 +39594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 259350942}
   NodeSelect: {fileID: 1529327886}
   NodeConnection1: {fileID: 91640215}
@@ -40980,6 +41097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1742182539}
   NodeSelect: {fileID: 1318898703}
   NodeConnection1: {fileID: 781307178}
@@ -43017,6 +43135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 842111509}
   NodeSelect: {fileID: 3174038}
   NodeConnection1: {fileID: 724228375}
@@ -43296,6 +43415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 535328883}
   NodeSelect: {fileID: 1859090494}
   NodeConnection1: {fileID: 351186292}
@@ -43976,6 +44096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1990599228}
   NodeSelect: {fileID: 654541930}
   NodeConnection1: {fileID: 860190844}
@@ -44398,6 +44519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1600134038}
   NodeSelect: {fileID: 138198900}
   NodeConnection1: {fileID: 0}
@@ -46371,6 +46493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1557000646}
   NodeSelect: {fileID: 1718391592}
   NodeConnection1: {fileID: 1005311839}
@@ -47784,6 +47907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1834583105}
   NodeSelect: {fileID: 1711426786}
   NodeConnection1: {fileID: 1940020241}
@@ -48423,6 +48547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 2137824967}
   NodeSelect: {fileID: 859707534}
   NodeConnection1: {fileID: 215748372}
@@ -49244,6 +49369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 236759123}
   NodeSelect: {fileID: 1742951753}
   NodeConnection1: {fileID: 1831499233}
@@ -49663,6 +49789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 301160776}
   NodeSelect: {fileID: 1714659996}
   NodeConnection1: {fileID: 251814602}
@@ -49859,6 +49986,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1332746892}
   NodeSelect: {fileID: 793572254}
   NodeConnection1: {fileID: 1367667974}
@@ -50477,12 +50605,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1465998964}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -50580,6 +50709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2, type: 2}
   NodeHighlight: {fileID: 123275598}
   NodeSelect: {fileID: 810348367}
   NodeConnection1: {fileID: 308432263}
@@ -52600,6 +52730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1514773204}
   NodeSelect: {fileID: 260167702}
   NodeConnection1: {fileID: 724704306}
@@ -53423,6 +53554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 922979679}
   NodeSelect: {fileID: 1837798766}
   NodeConnection1: {fileID: 98819013}
@@ -53923,6 +54055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 894386091}
   NodeSelect: {fileID: 301505402}
   NodeConnection1: {fileID: 37401625}
@@ -54805,6 +54938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1955143616}
   NodeSelect: {fileID: 2086379132}
   NodeConnection1: {fileID: 1238612493}
@@ -57165,6 +57299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1590371183}
   NodeSelect: {fileID: 1403883484}
   NodeConnection1: {fileID: 604802740}
@@ -57995,6 +58130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 2047782726}
   NodeSelect: {fileID: 1352211786}
   NodeConnection1: {fileID: 1834462823}
@@ -58265,6 +58401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 320110419}
   NodeSelect: {fileID: 145164251}
   NodeConnection1: {fileID: 2032487495}
@@ -58679,6 +58816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 262691794}
   NodeSelect: {fileID: 584902510}
   NodeConnection1: {fileID: 500365847}
@@ -59626,6 +59764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1806551371}
   NodeSelect: {fileID: 1633045052}
   NodeConnection1: {fileID: 0}
@@ -61805,12 +61944,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1802081520}
-        m_MethodName: ToggleSelection
-        m_Mode: 1
+      - m_Target: {fileID: 0}
+        m_MethodName: LoadResearch
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ResearchNode, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -61908,6 +62048,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   NodeHighlight: {fileID: 1383676076}
   NodeSelect: {fileID: 417120137}
   NodeConnection1: {fileID: 1191462438}
@@ -62135,6 +62276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 825582465}
   NodeSelect: {fileID: 144782915}
   NodeConnection1: {fileID: 185454481}
@@ -65000,6 +65142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 923704153}
   NodeSelect: {fileID: 1188695163}
   NodeConnection1: {fileID: 1606921088}
@@ -65279,6 +65422,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 821644510}
   NodeSelect: {fileID: 757892041}
   NodeConnection1: {fileID: 26226035}
@@ -65955,6 +66099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1841117210}
   NodeSelect: {fileID: 1658064441}
   NodeConnection1: {fileID: 1848063878}
@@ -66528,6 +66673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1909699790}
   NodeSelect: {fileID: 1499070123}
   NodeConnection1: {fileID: 1093812631}
@@ -66845,6 +66991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 544139674}
   NodeSelect: {fileID: 1582867428}
   NodeConnection1: {fileID: 21773623}
@@ -67560,6 +67707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 511765258}
   NodeSelect: {fileID: 542811519}
   NodeConnection1: {fileID: 1151747457}
@@ -67937,6 +68085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 687823299}
   NodeSelect: {fileID: 518119092}
   NodeConnection1: {fileID: 0}
@@ -68356,6 +68505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 537181212}
   NodeSelect: {fileID: 1022519438}
   NodeConnection1: {fileID: 564945148}
@@ -69670,6 +69820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1407117407}
   NodeSelect: {fileID: 1011116949}
   NodeConnection1: {fileID: 1055142680}
@@ -69909,6 +70060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 919564780}
   NodeSelect: {fileID: 369455334}
   NodeConnection1: {fileID: 719884469}
@@ -70793,6 +70945,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 136906819}
   NodeSelect: {fileID: 1507687882}
   NodeConnection1: {fileID: 0}
@@ -71106,6 +71259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 266960288}
   NodeSelect: {fileID: 1645097411}
   NodeConnection1: {fileID: 149092576}
@@ -72496,6 +72650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 1538530840}
   NodeSelect: {fileID: 677838831}
   NodeConnection1: {fileID: 98564944}
@@ -73363,6 +73518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 545850608}
   NodeSelect: {fileID: 2120288469}
   NodeConnection1: {fileID: 2007186753}
@@ -74588,6 +74744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNode: {fileID: 0}
   NodeHighlight: {fileID: 989453501}
   NodeSelect: {fileID: 104346259}
   NodeConnection1: {fileID: 1261940237}

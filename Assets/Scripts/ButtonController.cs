@@ -17,6 +17,7 @@ public class ButtonController : MonoBehaviour
     [SerializeField] GameObject NextNodeSelect1 = null;
     [SerializeField] GameObject NextNodeSelect2 = null;
     [SerializeField] GameObject NextNodeSelect3 = null;
+    [SerializeField] AudioSource sound = null;
     GameObject button;
     bool selected = false;
     bool hovered = false;
@@ -102,5 +103,10 @@ public class ButtonController : MonoBehaviour
     public void ToggleHover()
     {
         hovered = !hovered;
+    }
+
+    public void PlaySoundEffect()
+    {
+        sound.Play();
     }
 }

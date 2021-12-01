@@ -95,22 +95,26 @@ public class Research : MonoBehaviour
     [SerializeField] ResearchNode LiquidandGasCargo;
     [SerializeField] ResearchNode CryofuelCombustion;
     [SerializeField] ResearchNode UniqueCargo;
-    [Header("Bars")]
-    [SerializeField] Image NoviceBar = null;
-    [SerializeField] Image AdvancedBar = null;
-    [SerializeField] Image InterstellarBar = null;
-    [SerializeField] Text NoviceText = null;
-    [SerializeField] Text AdvancedText = null;
-    [SerializeField] Text InterstellarText = null;
+
+    Image NoviceBar = null;
+    Image AdvancedBar = null;
+    Image InterstellarBar = null;
+    Text NoviceText = null;
+    Text AdvancedText = null;
+    Text InterstellarText = null;
 
     ResearchNode[] reqResearch;
     ResearchNode currentResearch = null;
-    float novicePoints, advancedpoints, interstellarPoints = 0;
+    float novicePoints, advancedPoints, interstellarPoints = 0;
 
     private void Start()
     {
         if(currentResearch != null && NoviceText != null)
             NoviceText.text = "0 / " + currentResearch.reqNovicePoints.ToString();
+        if (currentResearch != null && AdvancedText != null)
+            AdvancedText.text = "0 / " + currentResearch.reqAdvancedPoints.ToString();
+        if (currentResearch != null && InterstellarText != null)
+            InterstellarText.text = "0 / " + currentResearch.reqInterstellarPoints.ToString();
     }
 
     private void Update()
@@ -119,29 +123,28 @@ public class Research : MonoBehaviour
         {
             UpdateResearchList();
         }
-        if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null && NoviceText != null)
+        if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null && NoviceText != null && NoviceBar != null)
         {
-            novicePoints++;
+            novicePoints+=5;
             novicePoints = Mathf.Clamp(novicePoints, novicePoints, currentResearch.reqNovicePoints);
             NoviceBar.fillAmount = novicePoints / currentResearch.reqNovicePoints;
             NoviceText.text = novicePoints.ToString() + " / " + currentResearch.reqNovicePoints.ToString();
-            Debug.Log(novicePoints);
         }
-        if (Input.GetKeyDown(KeyCode.W) && currentResearch != null && AdvancedText != null)
+        if (Input.GetKeyDown(KeyCode.W) && currentResearch != null && AdvancedText != null && AdvancedBar != null)
         {
-            advancedpoints++;
-            advancedpoints = Mathf.Clamp(advancedpoints, 0, currentResearch.reqAdvancedPoints);
+            advancedPoints+=5;
+            advancedPoints = Mathf.Clamp(advancedPoints, 0, currentResearch.reqAdvancedPoints);
+            AdvancedBar.fillAmount = advancedPoints / currentResearch.reqAdvancedPoints;
+            AdvancedText.text = advancedPoints.ToString() + " / " + currentResearch.reqAdvancedPoints.ToString();
         }
-        if (Input.GetKeyDown(KeyCode.E) && currentResearch != null && AdvancedText != null)
+        if (Input.GetKeyDown(KeyCode.E) && currentResearch != null && AdvancedText != null && InterstellarBar != null)
         {
-            interstellarPoints++;
+            interstellarPoints+=5;
             interstellarPoints = Mathf.Clamp(interstellarPoints, 0, currentResearch.reqInterstellarPoints);
+            InterstellarBar.fillAmount = interstellarPoints / currentResearch.reqInterstellarPoints;
+            InterstellarText.text = interstellarPoints.ToString() + " / " + currentResearch.reqInterstellarPoints.ToString();
         }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Debug.Log(currentResearch);
-        }
-        if (currentResearch != null && currentResearch.reqNovicePoints == novicePoints && currentResearch.reqAdvancedPoints == advancedpoints && currentResearch.reqInterstellarPoints == interstellarPoints)
+        if (currentResearch != null && currentResearch.reqNovicePoints == novicePoints && currentResearch.reqAdvancedPoints == advancedPoints && currentResearch.reqInterstellarPoints == interstellarPoints)
         {
             currentResearch.researched = true;
             UpdateResearchList();
@@ -152,10 +155,23 @@ public class Research : MonoBehaviour
     {
         currentResearch = reqResearch[0];
         novicePoints = 0;
-        advancedpoints = 0;
+        advancedPoints = 0;
         interstellarPoints = 0;
+
+        GameObject node = GameObject.Find(currentResearch.name);
+        if(currentResearch.reqNovicePoints != 0)
+            NoviceBar = node.transform.Find("NoviceProgressBar").transform.Find("ProgressBar").GetComponent<Image>();
+        if(currentResearch.reqAdvancedPoints != 0)
+            AdvancedBar = node.transform.Find("AdvancedProgressBar").transform.Find("ProgressBar").GetComponent<Image>();
+       if(currentResearch.reqInterstellarPoints != 0)
+            InterstellarBar = node.transform.Find("InterstellarProgressBar").transform.Find("ProgressBar").GetComponent<Image>();
+        if (currentResearch.reqNovicePoints != 0)
+            NoviceText = node.transform.Find("NoviceProgressBar").transform.Find("Text").GetComponent<Text>();
+        if (currentResearch.reqAdvancedPoints != 0)
+            AdvancedText = node.transform.Find("AdvancedProgressBar").transform.Find("Text").GetComponent<Text>();
+        if (currentResearch.reqInterstellarPoints != 0)
+            InterstellarText = node.transform.Find("InterstellarProgressBar").transform.Find("Text").GetComponent<Text>();
         Debug.Log(currentResearch);
-        Debug.Log(reqResearch.Length);
     }
 
     private void UpdateResearchList()

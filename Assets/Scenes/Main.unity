@@ -513,12 +513,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1387865
 GameObject:
   m_ObjectHideFlags: 0
@@ -682,7 +676,7 @@ GameObject:
   - component: {fileID: 2982270}
   - component: {fileID: 2982269}
   m_Layer: 5
-  m_Name: NoviceProgressBar (3)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3075,12 +3069,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &49959810
 GameObject:
   m_ObjectHideFlags: 0
@@ -3386,7 +3374,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -3476,12 +3464,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 1835824289}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &50865780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4066,12 +4048,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &61353717
 GameObject:
   m_ObjectHideFlags: 0
@@ -7117,12 +7093,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &136201558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8657,12 +8627,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &156786137
 GameObject:
   m_ObjectHideFlags: 0
@@ -9426,7 +9390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
   NodeHighlight: {fileID: 1351084272}
   NodeSelect: {fileID: 2102996569}
   NodeConnection1: {fileID: 684788228}
@@ -9498,7 +9462,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -9588,12 +9552,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &172231763
 GameObject:
   m_ObjectHideFlags: 0
@@ -10489,7 +10447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 20
 --- !u!222 &185519571
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11962,12 +11920,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &211921528
 GameObject:
   m_ObjectHideFlags: 0
@@ -14083,12 +14035,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &247158261
 GameObject:
   m_ObjectHideFlags: 0
@@ -16327,12 +16273,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &270701668
 GameObject:
   m_ObjectHideFlags: 0
@@ -18110,12 +18050,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &307576354
 GameObject:
   m_ObjectHideFlags: 0
@@ -18410,7 +18344,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 50
 --- !u!222 &315495628
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18921,7 +18855,7 @@ GameObject:
   - component: {fileID: 335633098}
   - component: {fileID: 335633097}
   m_Layer: 5
-  m_Name: AdvancedProgressBar (1)
+  m_Name: AdvancedProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20308,12 +20242,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &361883708
 GameObject:
   m_ObjectHideFlags: 0
@@ -23602,7 +23530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 20
 --- !u!222 &420368211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24080,12 +24008,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &427101927
 GameObject:
   m_ObjectHideFlags: 0
@@ -24229,7 +24151,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 30
 --- !u!222 &427731205
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25288,7 +25210,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -25378,12 +25300,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!4 &454129608
 Transform:
   m_ObjectHideFlags: 0
@@ -26362,7 +26278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: ae416c154ec436144982bea3bc8ea6f5, type: 2}
   NodeHighlight: {fileID: 2127077242}
   NodeSelect: {fileID: 817792564}
   NodeConnection1: {fileID: 241701977}
@@ -26434,7 +26350,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -26524,12 +26440,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &473238717
 GameObject:
   m_ObjectHideFlags: 0
@@ -26913,7 +26823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485911443}
   m_Layer: 5
-  m_Name: Gourmet Meal Preparation Node
+  m_Name: GourmetMealPreparation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27304,12 +27214,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &492738555
 GameObject:
   m_ObjectHideFlags: 0
@@ -28148,12 +28052,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &504473521
 GameObject:
   m_ObjectHideFlags: 0
@@ -28579,12 +28477,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &510293695
 GameObject:
   m_ObjectHideFlags: 0
@@ -30932,7 +30824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 560168284}
   m_Layer: 5
-  m_Name: Ranching Node
+  m_Name: Ranching
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33857,12 +33749,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &610569793
 GameObject:
   m_ObjectHideFlags: 0
@@ -34451,12 +34337,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &615790782
 GameObject:
   m_ObjectHideFlags: 0
@@ -36972,12 +36852,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &661937998
 GameObject:
   m_ObjectHideFlags: 0
@@ -39159,7 +39033,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 30
 --- !u!222 &710218652
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40256,12 +40130,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &732525927
 GameObject:
   m_ObjectHideFlags: 0
@@ -40805,12 +40673,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &739466906
 GameObject:
   m_ObjectHideFlags: 0
@@ -41277,12 +41139,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &746847344
 GameObject:
   m_ObjectHideFlags: 0
@@ -41825,12 +41681,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &753486515
 GameObject:
   m_ObjectHideFlags: 0
@@ -42148,12 +41998,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &757299427
 GameObject:
   m_ObjectHideFlags: 0
@@ -43570,7 +43414,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 35
 --- !u!222 &783018557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45420,12 +45264,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &810978722
 GameObject:
   m_ObjectHideFlags: 0
@@ -46599,12 +46437,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &826924304
 GameObject:
   m_ObjectHideFlags: 0
@@ -47332,12 +47164,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &835099180
 GameObject:
   m_ObjectHideFlags: 0
@@ -48511,12 +48337,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &851118884
 GameObject:
   m_ObjectHideFlags: 0
@@ -49227,7 +49047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 872830012}
   m_Layer: 5
-  m_Name: Food Repurposing Node
+  m_Name: FoodRepurposing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49650,12 +49470,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &875429265
 GameObject:
   m_ObjectHideFlags: 0
@@ -50765,12 +50579,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &892236067
 GameObject:
   m_ObjectHideFlags: 0
@@ -51544,12 +51352,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &898866708
 GameObject:
   m_ObjectHideFlags: 0
@@ -52437,7 +52239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   NodeHighlight: {fileID: 1392718581}
   NodeSelect: {fileID: 2010839904}
   NodeConnection1: {fileID: 463580593}
@@ -52509,7 +52311,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -52599,12 +52401,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &915996181
 GameObject:
   m_ObjectHideFlags: 0
@@ -54389,12 +54185,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &955642651
 GameObject:
   m_ObjectHideFlags: 0
@@ -56473,7 +56263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003034269}
   m_Layer: 5
-  m_Name: Basic Farming Node
+  m_Name: BasicFarming
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58294,12 +58084,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1034779839
 GameObject:
   m_ObjectHideFlags: 0
@@ -60856,12 +60640,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1073300304
 GameObject:
   m_ObjectHideFlags: 0
@@ -62222,12 +62000,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1095744105
 GameObject:
   m_ObjectHideFlags: 0
@@ -62426,7 +62198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3, type: 2}
   NodeHighlight: {fileID: 183865338}
   NodeSelect: {fileID: 36677787}
   NodeConnection1: {fileID: 917658927}
@@ -62455,7 +62227,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -62545,12 +62317,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1099482429
 GameObject:
   m_ObjectHideFlags: 0
@@ -63241,12 +63007,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1114426919
 GameObject:
   m_ObjectHideFlags: 0
@@ -63564,12 +63324,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1114579048
 GameObject:
   m_ObjectHideFlags: 0
@@ -64712,12 +64466,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1130714640
 GameObject:
   m_ObjectHideFlags: 0
@@ -67438,12 +67186,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1174860425
 GameObject:
   m_ObjectHideFlags: 0
@@ -70021,7 +69763,7 @@ GameObject:
   - component: {fileID: 1229523458}
   - component: {fileID: 1229523457}
   m_Layer: 5
-  m_Name: NoviceProgressBar (5)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70246,7 +69988,7 @@ GameObject:
   - component: {fileID: 1236937837}
   - component: {fileID: 1236937836}
   m_Layer: 5
-  m_Name: NoviceProgressBar (2)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70776,12 +70518,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1239934898
 GameObject:
   m_ObjectHideFlags: 0
@@ -71443,12 +71179,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1253491256
 GameObject:
   m_ObjectHideFlags: 0
@@ -72253,7 +71983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269244382}
   m_Layer: 5
-  m_Name: Meal Preparation Node
+  m_Name: MealPreparation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72601,12 +72331,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1271142163
 GameObject:
   m_ObjectHideFlags: 0
@@ -72697,7 +72421,7 @@ GameObject:
   - component: {fileID: 1272689214}
   - component: {fileID: 1272689213}
   m_Layer: 5
-  m_Name: AdvancedProgressBar (4)
+  m_Name: AdvancedProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73227,12 +72951,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1281395130
 GameObject:
   m_ObjectHideFlags: 0
@@ -75980,12 +75698,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1329025922
 GameObject:
   m_ObjectHideFlags: 0
@@ -78207,12 +77919,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1385062445
 GameObject:
   m_ObjectHideFlags: 0
@@ -79204,12 +78910,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1402142527
 GameObject:
   m_ObjectHideFlags: 0
@@ -80581,12 +80281,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1426835882
 GameObject:
   m_ObjectHideFlags: 0
@@ -81507,12 +81201,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1444597908
 GameObject:
   m_ObjectHideFlags: 0
@@ -81904,12 +81592,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1447789551
 GameObject:
   m_ObjectHideFlags: 0
@@ -82838,7 +82520,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 35
 --- !u!222 &1465956711
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -83045,7 +82727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2, type: 2}
   NodeHighlight: {fileID: 123275598}
   NodeSelect: {fileID: 810348367}
   NodeConnection1: {fileID: 308432263}
@@ -83074,7 +82756,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -83164,12 +82846,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1466846463
 GameObject:
   m_ObjectHideFlags: 0
@@ -85964,7 +85640,7 @@ GameObject:
   - component: {fileID: 1532528627}
   - component: {fileID: 1532528626}
   m_Layer: 5
-  m_Name: AdvancedProgressBar (2)
+  m_Name: AdvancedProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86874,12 +86550,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1543403461
 GameObject:
   m_ObjectHideFlags: 0
@@ -87229,7 +86899,7 @@ GameObject:
   - component: {fileID: 1549679708}
   - component: {fileID: 1549679707}
   m_Layer: 5
-  m_Name: NoviceProgressBar (6)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88510,12 +88180,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1571187360
 GameObject:
   m_ObjectHideFlags: 0
@@ -89137,12 +88801,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1576709717
 GameObject:
   m_ObjectHideFlags: 0
@@ -90180,12 +89838,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1590371183
 GameObject:
   m_ObjectHideFlags: 0
@@ -92051,7 +91703,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 30
 --- !u!222 &1628550015
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -92220,7 +91872,7 @@ GameObject:
   - component: {fileID: 1637576951}
   - component: {fileID: 1637576950}
   m_Layer: 5
-  m_Name: AdvancedProgressBar (3)
+  m_Name: AdvancedProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93581,12 +93233,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1662430892
 GameObject:
   m_ObjectHideFlags: 0
@@ -93656,7 +93302,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 40
 --- !u!222 &1662430895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -95663,12 +95309,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1688805383
 GameObject:
   m_ObjectHideFlags: 0
@@ -96211,12 +95851,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1701996294
 GameObject:
   m_ObjectHideFlags: 0
@@ -97132,12 +96766,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1711426786
 GameObject:
   m_ObjectHideFlags: 0
@@ -97777,7 +97405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1719874906}
   m_Layer: 5
-  m_Name: Animal Control Node
+  m_Name: AnimalControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98508,12 +98136,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1737389380
 GameObject:
   m_ObjectHideFlags: 0
@@ -101931,7 +101553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054df3665737a0446b9e9d0f284dddb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  node: {fileID: 0}
+  node: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   NodeHighlight: {fileID: 1383676076}
   NodeSelect: {fileID: 417120137}
   NodeConnection1: {fileID: 1191462438}
@@ -101960,7 +101582,7 @@ MonoBehaviour:
   Ranching: {fileID: 11400000, guid: eac72b783cffcd14190df1f17858339b, type: 2}
   FoodRepurposing: {fileID: 11400000, guid: 676c0adb38e78b946ba72978714b5a33, type: 2}
   AnimalControl: {fileID: 11400000, guid: 422cdf60d7076474c93bac9d2650f794, type: 2}
-  GourmetMealPreparation: {fileID: 11400000, guid: 2810405948f92d641af0ecd641a9aca2,
+  GourmetMealPreparation: {fileID: 11400000, guid: df8e835802a3c54409c1de4a1acdcac3,
     type: 2}
   PowerRegulation: {fileID: 11400000, guid: aa5b37e68f859494999e5c28bf7c2dd5, type: 2}
   InternalCombustion: {fileID: 11400000, guid: 1baa9245437ec9642ab51b0f12ea9608, type: 2}
@@ -102050,12 +101672,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1802551329
 GameObject:
   m_ObjectHideFlags: 0
@@ -102447,12 +102063,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1803887133
 GameObject:
   m_ObjectHideFlags: 0
@@ -104103,7 +103713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000038146973, y: -0.0000019073486}
+  m_AnchoredPosition: {x: 0.0000038146973, y: -0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1835824289
@@ -105807,7 +105417,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 20
 --- !u!222 &1863491892
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -107111,12 +106721,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1879526750
 GameObject:
   m_ObjectHideFlags: 0
@@ -107626,12 +107230,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1883596333
 GameObject:
   m_ObjectHideFlags: 0
@@ -108623,12 +108221,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1895003074
 GameObject:
   m_ObjectHideFlags: 0
@@ -109479,12 +109071,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1905869666
 GameObject:
   m_ObjectHideFlags: 0
@@ -109954,12 +109540,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1909699790
 GameObject:
   m_ObjectHideFlags: 0
@@ -111521,12 +111101,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1937754360
 GameObject:
   m_ObjectHideFlags: 0
@@ -112103,12 +111677,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1944431415
 GameObject:
   m_ObjectHideFlags: 0
@@ -112874,12 +112442,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1950102234
 GameObject:
   m_ObjectHideFlags: 0
@@ -114351,7 +113913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 30
 --- !u!222 &1984136233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -114848,7 +114410,7 @@ GameObject:
   - component: {fileID: 1991777228}
   - component: {fileID: 1991777227}
   m_Layer: 5
-  m_Name: NoviceProgressBar (1)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115230,12 +114792,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &1996294992
 GameObject:
   m_ObjectHideFlags: 0
@@ -115701,12 +115257,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2007186753
 GameObject:
   m_ObjectHideFlags: 0
@@ -116383,7 +115933,7 @@ GameObject:
   - component: {fileID: 2014306737}
   - component: {fileID: 2014306736}
   m_Layer: 5
-  m_Name: NoviceProgressBar (4)
+  m_Name: NoviceProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -117447,12 +116997,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2042293646
 GameObject:
   m_ObjectHideFlags: 0
@@ -117844,12 +117388,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2047782726
 GameObject:
   m_ObjectHideFlags: 0
@@ -118567,7 +118105,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2062706624}
   m_Layer: 5
-  m_Name: Agriculture Node
+  m_Name: Agriculture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120326,12 +119864,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2084936996
 GameObject:
   m_ObjectHideFlags: 0
@@ -121957,12 +121489,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2106876106
 GameObject:
   m_ObjectHideFlags: 0
@@ -123649,7 +123175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0/15
+  m_Text: 0 / 15
 --- !u!222 &2140585406
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -124113,12 +123639,6 @@ MonoBehaviour:
   LiquidandGasCargo: {fileID: 11400000, guid: c1c97d25b25c25f43985b3b72f7c2414, type: 2}
   CryofuelCombustion: {fileID: 11400000, guid: 332b055ae757dfb4e8650d5f4a912b5a, type: 2}
   UniqueCargo: {fileID: 11400000, guid: bef404c4ce7c67148a7c9d2a199edaba, type: 2}
-  NoviceBar: {fileID: 0}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 0}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}
 --- !u!1 &2145121986
 GameObject:
   m_ObjectHideFlags: 0

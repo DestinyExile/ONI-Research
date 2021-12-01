@@ -19,3 +19,4 @@ MonoBehaviour:
   preReq1: {fileID: 11400000, guid: 289acf338e720f34ebfb462e432ddd3f, type: 2}
   preReq2: {fileID: 0}
   total: 2
+  researched: 0

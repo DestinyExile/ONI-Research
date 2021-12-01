@@ -102,6 +102,10 @@ public class Research : MonoBehaviour
 
     private void Update()
     {
+        if(currentResearch != null && currentResearch.researched)
+        {
+            UpdateResearchList();
+        }
         if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null)
         {
             novicePoints++;
@@ -124,6 +128,7 @@ public class Research : MonoBehaviour
         }
         if (currentResearch != null && currentResearch.reqNovicePoints == novicePoints && currentResearch.reqAdvancedPoints == advancedpoints && currentResearch.reqInterstellarPoints == interstellarPoints)
         {
+            currentResearch.researched = true;
             UpdateResearchList();
         }
     }
@@ -151,12 +156,17 @@ public class Research : MonoBehaviour
             reqResearch = temp;
             StartResearch();
         }
+        else
+        {
+            currentResearch = null;
+        }
     }
 
     public void LoadBasicFarming()
     {
         reqResearch = new ResearchNode[] { BasicFarming };
         StartResearch();
+
     }
     public void LoadMealPreparation()
     {
@@ -188,5 +198,366 @@ public class Research : MonoBehaviour
         reqResearch = new ResearchNode[] { BasicFarming, MealPreparation, Ranching, Agriculture, AnimalControl, GourmetMealPreparation };
         StartResearch();
     }
+    public void LoadPowerRegulation()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation };
+        StartResearch();
+    }
+    public void LoadInternalCombustion()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion };
+        StartResearch();
+    }
+    public void LoadFossilFuels()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, FossilFuels };
+        StartResearch();
+    }
+    public void LoadSoundAmplifiers()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, SoundAmplifires };
+        StartResearch();
+    }
+    public void LoadAdvancedPowerRegulation()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, AdvancedPowerRegulation };
+        StartResearch();
+    }
+    public void LoadPlasticManufacturing()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, FossilFuels, PlasticManufacturing };
+        StartResearch();
+    }
+    public void LoadLowResistanceConductors()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, AdvancedPowerRegulation, LowResistanceConductors };
+        StartResearch();
+    }
+    public void LoadValveMiniturization()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, FossilFuels, PlasticManufacturing, ValveMiniturization };
+        StartResearch();
+    }
+    public void LoadRenewableEnergy()
+    {
+        reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, AdvancedPowerRegulation, LowResistanceConductors, RenewableEnergy };
+        StartResearch();
+    }
+    public void LoadBruteForceRefinement()
+    {
+        reqResearch = new ResearchNode[] { Employment, BruteForceRefinement };
+        StartResearch();
+    }
+    public void LoadSmartStorage()
+    {
+        reqResearch = new ResearchNode[] { Employment, BruteForceRefinement, SmartStorage };
+        StartResearch();
+    }
+    public void LoadRefinedRenovations()
+    {
+        reqResearch = new ResearchNode[] { Employment, BruteForceRefinement, RefinedRenovations };
+        StartResearch();
+    }
+    public void LoadSolidTransport()
+    {
+        reqResearch = new ResearchNode[] { Employment, PowerRegulation, BruteForceRefinement, InternalCombustion, SmartStorage, AdvancedPowerRegulation, SolidTransport };
+        StartResearch();
+    }
+    public void LoadSmelting()
+    {
+        reqResearch = new ResearchNode[] { Employment, BruteForceRefinement, RefinedRenovations, Smelting };
+        StartResearch();
+    }
+    public void LoadSolidControl()
+    {
+        reqResearch = new ResearchNode[] { Employment, PowerRegulation, BruteForceRefinement, InternalCombustion, SmartStorage, AdvancedPowerRegulation, SolidControl };
+        StartResearch();
+    }
+    public void LoadSuperheatedForging()
+    {
+        reqResearch = new ResearchNode[] { Employment, BruteForceRefinement, RefinedRenovations, Smelting, SuperheatedForging };
+        StartResearch();
+    }
+    public void LoadSolidManagement()
+    {
+        reqResearch = new ResearchNode[] { Employment, PowerRegulation, BruteForceRefinement, InternalCombustion, SmartStorage, AdvancedPowerRegulation, SolidControl, SolidManagement };
+        StartResearch();
+    }
+    public void LoadEmployment()
+    {
+        reqResearch = new ResearchNode[] { Employment };
+        StartResearch();
+    }
+    public void LoadAdvancedResearch()
+    {
+        reqResearch = new ResearchNode[] { Employment, AdvancedResearch };
+        StartResearch();
+    }
+    public void LoadArtificialFriends()
+    {
+        reqResearch = new ResearchNode[] { Employment, AdvancedResearch, ArtificialFriends };
+        StartResearch();
+    }
+    public void LoadNotificationSystems()
+    {
+        reqResearch = new ResearchNode[] { Employment, AdvancedResearch, NotificationSystems };
+        StartResearch();
+    }
+    public void LoadRoboticTools()
+    {
+        reqResearch = new ResearchNode[] { Employment, AdvancedResearch, ArtificialFriends, RoboticTools };
+        StartResearch();
+    }
+    public void LoadPharmacology()
+    {
+        reqResearch = new ResearchNode[] { Pharmacology };
+        StartResearch();
+    }
+    public void LoadMedicalEquipment()
+    {
+        reqResearch = new ResearchNode[] { Pharmacology, MedicalEquipment };
+        StartResearch();
+    }
+    public void LoadPathogenDiagnostics()
+    {
+        reqResearch = new ResearchNode[] { Pharmacology, MedicalEquipment, PathogenDiagnostics };
+        StartResearch();
+    }
+    public void LoadMicroTargetedMedicine()
+    {
+        reqResearch = new ResearchNode[] { Pharmacology, MedicalEquipment, PathogenDiagnostics, MicroTargetedMedicine };
+        StartResearch();
+    }
+    public void LoadPlumbing()
+    {
+        reqResearch = new ResearchNode[] { Plumbing };
+        StartResearch();
+    }
+    public void LoadAirSystems()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, AirSystems };
+        StartResearch();
+    }
+    public void LoadSanitation()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Saniation };
+        StartResearch();
+    }
+    public void LoadFiltration()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Filtration };
+        StartResearch();
+    }
+    public void LoadLiquidBasedRefinement()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, AirSystems, LiquidBasedRefinement };
+        StartResearch();
+    }
+    public void LoadFlowRedirection()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Saniation, FlowRedirection };
+        StartResearch();
+    }
+    public void LoadDistillation()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Filtration, Distillation };
+        StartResearch();
+    }
+    public void LoadImprovedPlumbing()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Filtration, ImprovedPlumbing };
+        StartResearch();
+    }
+    public void LoadLiquidTuning()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Filtration, ImprovedPlumbing, LiquidTuning };
+        StartResearch();
+    }
+    public void LoadAdvancedCaffeination()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Filtration, ImprovedPlumbing, LiquidTuning, AdvancedCaffeination };
+        StartResearch();
+    }
+    public void LoadVentilation()
+    {
+        reqResearch = new ResearchNode[] { Ventilation };
+        StartResearch();
+    }
+    public void LoadPressureManagement()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement };
+        StartResearch();
+    }
+    public void LoadPortableGases()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PortableGases };
+        StartResearch();
+    }
+    public void LoadTemperatureModulation()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement, TemperatureModulation };
+        StartResearch();
+    }
+    public void LoadDecontamination()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement, Decontamination };
+        StartResearch();
+    }
+    public void LoadImprovedVentilation()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement, ImprovedVentilation };
+        StartResearch();
+    }
+    public void LoadHVAC()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement, TemperatureModulation, HVAC };
+        StartResearch();
+    }
+    public void LoadCatalytics()
+    {
+        reqResearch = new ResearchNode[] { Ventilation, PressureManagement, TemperatureModulation, HVAC, Catalytics };
+        StartResearch();
+    }
+    public void LoadHazardProtection()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, Ventilation, ArtisticExpression, PressureManagement, TextileProduction, ImprovedVentilation, HazardProtection };
+        StartResearch();
+    }
+    public void LoadTransitTubes()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, Ventilation, ArtisticExpression, PressureManagement, TextileProduction, ImprovedVentilation, HazardProtection, TransitTubes };
+        StartResearch();
+    }
+    public void LoadJetpacks()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, Ventilation, ArtisticExpression, PressureManagement, TextileProduction, ImprovedVentilation, HazardProtection, TransitTubes, Jetpacks };
+        StartResearch();
+    }
+    public void LoadInteriorDecor()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor };
+        StartResearch();
+    }
+    public void LoadArtisticExpression()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression };
+        StartResearch();
+    }
+    public void LoadTextileProduction()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction };
+        StartResearch();
+    }
+    public void LoadFineArt()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, FineArt };
+        StartResearch();
+    }
+    public void LoadHomeLuxuries()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction, HomeLuxuries };
+        StartResearch();
+    }
+    public void LoadHighCulture()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, FineArt, HighCulture };
+        StartResearch();
+    }
+    public void LoadGlassBlowing()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction, HomeLuxuries, GlassBlowing };
+        StartResearch();
+    }
+    public void LoadRenaissanceArt()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, FineArt, HighCulture, RenaissanceArt };
+        StartResearch();
+    }
+    public void LoadEnvironmentalAppreciation()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction, HomeLuxuries, GlassBlowing, EnvironmentalAppreciation };
+        StartResearch();
+    }
+    public void LoadNewMedia()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction, FineArt, HomeLuxuries, HighCulture, GlassBlowing, RenaissanceArt, NewMedia };
+        StartResearch();
+    }
+    public void LoadMonuments()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, ArtisticExpression, TextileProduction, FineArt, HomeLuxuries, HighCulture, GlassBlowing, RenaissanceArt, EnvironmentalAppreciation, NewMedia, Monuments };
+        StartResearch();
+    }
+    public void LoadSmartHome()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome };
+        StartResearch();
+    }
+    public void LoadGenericSensors()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors };
+        StartResearch();
+    }
+    public void LoadParallelAutomation()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, ParallelAutomation };
+        StartResearch();
+    }
 
+    public void LoadAdvancedAutomation()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation };
+        StartResearch();
+    }
+    public void LoadComputing()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing };
+        StartResearch();
+    }
+    public void LoadMulltiplexing()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, Multiplexing };
+        StartResearch();
+    }
+    public void LoadCelestialDetection()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, CelestialDetection};
+        StartResearch();
+    }
+    public void LoadIntroductoryRocketry()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, CelestialDetection, IntroductoryRocketry };
+        StartResearch();
+    }
+    public void LoadSolidFuelCombustion()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Ventilation, InteriorDecor, Filtration, PressureManagement, ArtisticExpression, SmartHome, ImprovedPlumbing, ImprovedVentilation, TextileProduction, GenericSensors, LiquidTuning, HazardProtection, AdvancedAutomation, AdvancedCaffeination, TransitTubes, Computing, Jetpacks, CelestialDetection, IntroductoryRocketry, SolidFuelCombustion };
+        StartResearch();
+    }
+    public void LoadSolidCargo()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, CelestialDetection, IntroductoryRocketry, SolidCargo };
+        StartResearch();
+    }
+    public void LoadHydrocarbonCombustion()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Ventilation, InteriorDecor, Filtration, PressureManagement, ArtisticExpression, SmartHome, ImprovedPlumbing, ImprovedVentilation, TextileProduction, GenericSensors, LiquidTuning, HazardProtection, AdvancedAutomation, AdvancedCaffeination, TransitTubes, Computing, Jetpacks, CelestialDetection, IntroductoryRocketry, SolidFuelCombustion, HydrocarbonCombustion };
+        StartResearch();
+    }
+    public void LoadLiquidandGasCargo()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, CelestialDetection, IntroductoryRocketry, SolidCargo, LiquidandGasCargo };
+        StartResearch();
+    }
+    public void LoadCryoFuelCombustion()
+    {
+        reqResearch = new ResearchNode[] { Plumbing, Ventilation, InteriorDecor, Filtration, PressureManagement, ArtisticExpression, SmartHome, ImprovedPlumbing, ImprovedVentilation, TextileProduction, GenericSensors, LiquidTuning, HazardProtection, AdvancedAutomation, AdvancedCaffeination, TransitTubes, Computing, Jetpacks, CelestialDetection, IntroductoryRocketry, SolidFuelCombustion, HydrocarbonCombustion, CryofuelCombustion };
+        StartResearch();
+    }
+    public void LoadUniqueCargo()
+    {
+        reqResearch = new ResearchNode[] { InteriorDecor, SmartHome, GenericSensors, AdvancedAutomation, Computing, CelestialDetection, IntroductoryRocketry, SolidCargo, LiquidandGasCargo, UniqueCargo };
+        StartResearch();
+    }
 }
+

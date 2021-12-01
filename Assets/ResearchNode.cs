@@ -12,4 +12,5 @@ public class ResearchNode : ScriptableObject
     public ResearchNode preReq1 = null;
     public ResearchNode preReq2 = null;
     public int total;
+    public bool researched = false;
 }

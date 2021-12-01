@@ -20,11 +20,3 @@ MonoBehaviour:
   preReq2: {fileID: 0}
   total: 1
   researched: 0
-  NoviceBar: {fileID: 5279580809387590851, guid: 87352a65159986746914c4a6f7a4fd65,
-    type: 3}
-  AdvancedBar: {fileID: 0}
-  InterstellarBar: {fileID: 0}
-  NoviceText: {fileID: 3702296156048957240, guid: f1761669c54f28c488f209dedf3c91ce,
-    type: 3}
-  AdvancedText: {fileID: 0}
-  InterstellarText: {fileID: 0}

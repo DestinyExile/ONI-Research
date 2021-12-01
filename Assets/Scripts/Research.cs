@@ -159,6 +159,7 @@ public class Research : MonoBehaviour
         interstellarPoints = 0;
 
         GameObject node = GameObject.Find(currentResearch.name);
+        Debug.Log(node);
         if(currentResearch.reqNovicePoints != 0)
             NoviceBar = node.transform.Find("NoviceProgressBar").transform.Find("ProgressBar").GetComponent<Image>();
         if(currentResearch.reqAdvancedPoints != 0)
@@ -274,6 +275,11 @@ public class Research : MonoBehaviour
         reqResearch = new ResearchNode[] { PowerRegulation, InternalCombustion, AdvancedPowerRegulation, LowResistanceConductors, RenewableEnergy };
         StartResearch();
     }
+    public void LoadEmployment()
+    {
+        reqResearch = new ResearchNode[] { Employment };
+        StartResearch();
+    }
     public void LoadBruteForceRefinement()
     {
         reqResearch = new ResearchNode[] { Employment, BruteForceRefinement };
@@ -312,11 +318,6 @@ public class Research : MonoBehaviour
     public void LoadSolidManagement()
     {
         reqResearch = new ResearchNode[] { Employment, PowerRegulation, BruteForceRefinement, InternalCombustion, SmartStorage, AdvancedPowerRegulation, SolidControl, SolidManagement };
-        StartResearch();
-    }
-    public void LoadEmployment()
-    {
-        reqResearch = new ResearchNode[] { Employment };
         StartResearch();
     }
     public void LoadAdvancedResearch()

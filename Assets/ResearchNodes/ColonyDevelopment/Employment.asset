@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3f4ab8bb98634d4186b77abb97efc72, type: 3}
   m_Name: Employment
   m_EditorClassIdentifier: 
-  name: Emplolyment
+  name: Employment
   reqNovicePoints: 15
   reqAdvancedPoints: 0
   reqInterstellarPoints: 0
   preReq1: {fileID: 0}
   preReq2: {fileID: 0}
   total: 1
+  researched: 0

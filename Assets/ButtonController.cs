@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 
 public class ButtonController : MonoBehaviour
 {
+    [SerializeField] ResearchNode node;
     [SerializeField] GameObject NodeHighlight;
     [SerializeField] GameObject NodeSelect;
     [SerializeField] GameObject NodeConnection1 = null;
@@ -23,6 +24,8 @@ public class ButtonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(node != null)
+            node.Reset();
         button = this.gameObject;
     }
 

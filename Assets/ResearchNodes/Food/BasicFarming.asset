@@ -19,3 +19,4 @@ MonoBehaviour:
   preReq1: {fileID: 0}
   preReq2: {fileID: 0}
   total: 1
+  researched: 0

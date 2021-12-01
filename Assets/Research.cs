@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Research : MonoBehaviour
 {
@@ -94,11 +95,23 @@ public class Research : MonoBehaviour
     [SerializeField] ResearchNode LiquidandGasCargo;
     [SerializeField] ResearchNode CryofuelCombustion;
     [SerializeField] ResearchNode UniqueCargo;
-
+    [Header("Bars")]
+    [SerializeField] Image NoviceBar = null;
+    [SerializeField] Image AdvancedBar = null;
+    [SerializeField] Image InterstellarBar = null;
+    [SerializeField] Text NoviceText = null;
+    [SerializeField] Text AdvancedText = null;
+    [SerializeField] Text InterstellarText = null;
 
     ResearchNode[] reqResearch;
     ResearchNode currentResearch = null;
     float novicePoints, advancedpoints, interstellarPoints = 0;
+
+    private void Start()
+    {
+        if(currentResearch != null && NoviceText != null)
+            NoviceText.text = "0 / " + currentResearch.reqNovicePoints.ToString();
+    }
 
     private void Update()
     {
@@ -106,18 +119,20 @@ public class Research : MonoBehaviour
         {
             UpdateResearchList();
         }
-        if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null)
+        if (Input.GetKeyDown(KeyCode.Q) && currentResearch != null && NoviceText != null)
         {
             novicePoints++;
             novicePoints = Mathf.Clamp(novicePoints, novicePoints, currentResearch.reqNovicePoints);
+            NoviceBar.fillAmount = novicePoints / currentResearch.reqNovicePoints;
+            NoviceText.text = novicePoints.ToString() + " / " + currentResearch.reqNovicePoints.ToString();
             Debug.Log(novicePoints);
         }
-        if (Input.GetKeyDown(KeyCode.W) && currentResearch != null)
+        if (Input.GetKeyDown(KeyCode.W) && currentResearch != null && AdvancedText != null)
         {
             advancedpoints++;
             advancedpoints = Mathf.Clamp(advancedpoints, 0, currentResearch.reqAdvancedPoints);
         }
-        if (Input.GetKeyDown(KeyCode.E) && currentResearch != null)
+        if (Input.GetKeyDown(KeyCode.E) && currentResearch != null && AdvancedText != null)
         {
             interstellarPoints++;
             interstellarPoints = Mathf.Clamp(interstellarPoints, 0, currentResearch.reqInterstellarPoints);

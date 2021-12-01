@@ -159,7 +159,6 @@ public class Research : MonoBehaviour
         interstellarPoints = 0;
 
         GameObject node = GameObject.Find(currentResearch.name);
-        Debug.Log(node);
         if(currentResearch.reqNovicePoints != 0)
             NoviceBar = node.transform.Find("NoviceProgressBar").transform.Find("ProgressBar").GetComponent<Image>();
         if(currentResearch.reqAdvancedPoints != 0)
@@ -172,7 +171,6 @@ public class Research : MonoBehaviour
             AdvancedText = node.transform.Find("AdvancedProgressBar").transform.Find("Text").GetComponent<Text>();
         if (currentResearch.reqInterstellarPoints != 0)
             InterstellarText = node.transform.Find("InterstellarProgressBar").transform.Find("Text").GetComponent<Text>();
-        Debug.Log(currentResearch);
     }
 
     private void UpdateResearchList()

@@ -18,7 +18,6 @@ public class ButtonController : MonoBehaviour
     [SerializeField] GameObject NextNodeSelect2 = null;
     [SerializeField] GameObject NextNodeSelect3 = null;
     [SerializeField] AudioSource sound = null;
-    GameObject button;
     bool selected = false;
     bool hovered = false;
 
@@ -27,7 +26,6 @@ public class ButtonController : MonoBehaviour
     {
         if(node != null)
             node.Reset();
-        button = this.gameObject;
     }
 
     // Update is called once per frame
